@@ -4,7 +4,7 @@ def mainFunc():
     date = input("Enter the date(MM/DD/YY): ")
     nameOfTxt = input("Please enter the name of the txt file the letter will be written to: ")
     for x in os.listdir():
-        # iterate through current directory in case the txt file already
+        # iterate through current directory in case the txt file already exists
         if x == f"{nameOfTxt}.txt": 
          v = input("the txt name entered already has an instance within the folder, would you like to overwrite it? y/n")
          if v == "y": 
