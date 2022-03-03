@@ -6,7 +6,7 @@ def mainFunc():
     for x in os.listdir():
         # iterate through current directory in case the txt file already exists
         if x == f"{nameOfTxt}.txt": 
-         v = input("the txt name entered already has an instance within the folder, would you like to overwrite it? y/n")
+         v = input("the name of the txt entered already has an instance within the folder, would you like to overwrite it? y/n")
          if v == "y": 
                continue
          elif v == "n":
